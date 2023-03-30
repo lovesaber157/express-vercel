@@ -35,7 +35,7 @@ let independentList=[
     }
 ]
 router.get('/forumList',(req, res)=>{
-    console.log('拦截get')
+    console.log('拦截get,准备发送',forumList)
     res.send(forumList)
 })
 //post拦截
